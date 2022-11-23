@@ -8,6 +8,10 @@ import preact from "@astrojs/preact";
 export default defineConfig({
   integrations: [
     NetlifyCMS({
+      previewStyles: [
+        'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&display=swap',
+        'src/styles/global.css',
+      ],
       config: {
         backend: {
           name: 'git-gateway',
