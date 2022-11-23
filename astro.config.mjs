@@ -7,11 +7,12 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 export default defineConfig({
   integrations: [
+    
     NetlifyCMS({
       config: {
         backend: {
           name: 'git-gateway',
-          branch: 'main',
+          branch: 'master',
         },
         collections:  [
           {
