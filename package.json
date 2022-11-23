@@ -14,6 +14,7 @@
     "@astrojs/preact": "^1.2.0",
     "@astrojs/rss": "^1.0.3",
     "astro": "^1.6.10",
+    "astro-netlify-cms": "^0.3.4",
     "preact": "^10.11.3"
   }
 }
