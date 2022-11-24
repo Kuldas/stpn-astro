@@ -26,6 +26,14 @@ export default defineConfig({
             delete: true,
             fields: [
             { name: 'title', widget: 'string', label: 'Post title' },
+            {
+              name: 'pubDate',
+              widget: 'datetime',
+              label: 'Publish date',
+              format: 'DD MM YYYY',
+              date_format: 'DD MM YYYY',
+              time_format: false,
+            },
             { name: 'body', widget: 'markdown', label: 'Post body'},
             ],
           },
