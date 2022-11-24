@@ -34,7 +34,20 @@ export default defineConfig({
               date_format: 'DD.MM. YYYY',
               time_format: false,
             },
-            { name: 'body', widget: 'markdown', label: 'Post body'},
+            { name: 'author', widget: 'string', label: 'Author' },
+            { name: 'description', widget: 'string', label: 'Description' },
+            { 
+              name: 'tags', 
+              widget: 'list', 
+              label: 'Tags', 
+              summary: '{{fields.name}}',
+              field: {
+                label: 'Name',
+                name: 'name',
+                widget: 'string',
+              }
+            },
+            { name: 'body', widget: 'markdown', label: 'Post body' },
             ],
           },
         ],
