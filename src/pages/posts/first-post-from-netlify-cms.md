@@ -5,5 +5,6 @@ author: Štěpán Kulík
 description: Toto je můj první příspěvek z Netlify CMS
 tags:
   - Netlify CMS
+layout: ../../layouts/MarkdownPostLayout.astro
 ---
 Toto je můj první příspěvek z netlify CMS
