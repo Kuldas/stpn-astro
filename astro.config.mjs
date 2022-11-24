@@ -25,6 +25,14 @@ export default defineConfig({
             create: true,
             delete: true,
             fields: [
+            {
+              name: 'layout',
+              widget: 'select',
+              default: '../../layouts/MarkdownPostLayout.astro',
+              options: [
+                { label: 'Blog Post', value: '../../layouts/MarkdownPostLayout.astro' },
+              ],
+            },
             { name: 'title', widget: 'string', label: 'Post title' },
             {
               name: 'pubDate',
