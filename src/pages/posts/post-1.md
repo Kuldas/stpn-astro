@@ -1,13 +1,18 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
-pubDate: 01.07. 2022
-author: 'Astro Learner'
-description: 'This is the first post of my new Astro blog.'
+title: My First Blog Post
+pubDate: 24.11. 2022
+author: Astro Learner
+description: This is the first post of my new Astro blog.
 image:
-    url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg' 
-    alt: 'The Astro logo with the word One.'
-tags: ["astro", "blogging", "learning in public", "main", "personal"]
+  url: https://astro.build/assets/blog/astro-1-release-update/cover.jpeg
+  alt: The Astro logo with the word One.
+tags:
+  - astro
+  - blogging
+  - learning in public
+  - main
+  - personal
 ---
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
