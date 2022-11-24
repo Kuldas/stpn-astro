@@ -47,7 +47,6 @@ export default defineConfig({
                 widget: 'string',
               }
             },
-            { name: 'body', widget: 'markdown', label: 'Post body' },
             {
               name: 'layout',
               widget: 'select',
@@ -56,6 +55,7 @@ export default defineConfig({
                 { label: 'Blog Post', value: '../../layouts/MarkdownPostLayout.astro' },
               ],
             },
+            { name: 'body', widget: 'markdown', label: 'Post body' },
             ],
           },
         ],
