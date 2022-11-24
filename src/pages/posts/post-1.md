@@ -13,6 +13,7 @@ tags:
   - learning in public
   - main
   - personal
+  - My first tag
 ---
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
