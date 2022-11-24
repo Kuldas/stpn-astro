@@ -48,6 +48,14 @@ export default defineConfig({
               }
             },
             { name: 'body', widget: 'markdown', label: 'Post body' },
+            {
+              name: 'layout',
+              widget: 'select',
+              default: '../../layouts/MarkdownPostLayout.astro',
+              options: [
+                { label: 'Blog Post', value: '../../layouts/MarkdownPostLayout.astro' },
+              ],
+            },
             ],
           },
         ],
