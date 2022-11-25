@@ -47,8 +47,8 @@ export default defineConfig({
               widget: 'object',
               required: false,
               fields: [
-                {name: 'url', label: 'Image', widget: 'image'},
-                {name: 'alt', label: 'Alt text', widget: 'string'},
+                {name: 'url', label: 'Image', widget: 'image', required: false},
+                {name: 'alt', label: 'Alt text', widget: 'string', required: false},
               ]
             },
             { 
