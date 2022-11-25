@@ -42,6 +42,11 @@ export default defineConfig({
             },
             { name: 'author', widget: 'string', label: 'Author' },
             { name: 'description', widget: 'string', label: 'Description' },
+            {
+              name: 'image', 
+              widget: 'image', 
+              required: false,
+            },
             { 
               name: 'tags', 
               widget: 'list', 
