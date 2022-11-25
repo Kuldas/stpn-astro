@@ -1,12 +1,16 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: My Third Blog Post
-pubDate: 01.07. 2022
+pubDate: 25/11/2022
 author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
-image: 
-    url: "https://astro.build/assets/blog/community-day/cover.jpg"
-    alt: "The word community with a heart."
-tags: ["astro", "learning in public", "setbacks", "community"]
+description: I had some challenges, but asking in the community really helped!
+image:
+  url: https://astro.build/assets/blog/community-day/cover.jpg
+  alt: The word community with a heart.
+tags:
+  - astro
+  - learning in public
+  - setbacks
+  - community
 ---
 It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
