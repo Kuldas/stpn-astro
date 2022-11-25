@@ -4,6 +4,8 @@ title: First post from Netfily CMS
 pubDate: 25.11. 2022
 author: Štěpán Kulík
 description: První post z Netlify CMS
+tags:
+  - Begin
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Phasellus vestibulum lorem sed risus ultricies. Orci dapibus ultrices in iaculis nunc sed. A iaculis at erat pellentesque. Ac felis donec et odio pellentesque diam volutpat commodo. Aenean pharetra magna ac placerat vestibulum. Commodo ullamcorper a lacus vestibulum sed arcu non odio. At quis risus sed vulputate odio ut. Lorem donec massa sapien faucibus. Risus ultricies tristique nulla aliquet enim tortor at auctor. Risus pretium quam vulputate dignissim suspendisse in est ante in.
 
