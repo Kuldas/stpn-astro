@@ -42,6 +42,15 @@ export default defineConfig({
             },
             { name: 'author', widget: 'string', label: 'Author' },
             { name: 'description', widget: 'string', label: 'Description' },
+            {label: 'Featured Image',
+              name: 'image',
+              widget: 'object',
+              required: false,
+              fields: [
+                {name: 'url', label: 'Image', widget: 'image'},
+                {name: 'alt', label: 'Alt text', widget: 'string'},
+              ]
+            },
             { 
               name: 'tags', 
               widget: 'list', 
