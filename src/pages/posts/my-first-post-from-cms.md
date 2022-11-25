@@ -5,7 +5,7 @@ pubDate: 25/11/2022
 author: Kuldas
 description: Toto je moje poprvé
 image:
-  url: https://astro.build/assets/blog/astro-1-release-update/cover.jpeg
+  url: ""
   alt: The Astro logo with the word One.
 tags:
   - astro
