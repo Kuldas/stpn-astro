@@ -69,6 +69,9 @@ export default defineConfig({
             name: 'settings',
             label: 'Settings',
             delete: false,
+            editor: {
+              preview: false,
+            },
             files: [
               {
                 name: 'general',
