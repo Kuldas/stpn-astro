@@ -79,7 +79,7 @@ export default defineConfig({
                 file: 'src/data/globalSettings.json',
                 description: 'General Site settings',
                 fields: [
-                  { label: 'Global title', name: 'site_title', widget: 'string' },
+                  { label: 'Global title', name: 'siteTitle', widget: 'string' },
                 ], 
               },
             ],
