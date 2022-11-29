@@ -1,3 +1,7 @@
 {
-    
+    "settings": {
+        "general": {
+            "site_title": "" 
+        }
+    }
 }
