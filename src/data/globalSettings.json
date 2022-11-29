@@ -1,7 +1,8 @@
 {
-    "settings": {
-        "general": {
-            "site_title": ""
-        }
+  "settings": {
+    "general": {
+      "site_title": ""
     }
+  },
+  "site_title": "Testing title"
 }
