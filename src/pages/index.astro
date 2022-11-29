@@ -10,5 +10,5 @@ const pageTitle = "Home Page"
 <BaseLayout pageTitle={pageTitle}>
 	<h2>My awesome blog subtitle</h2>
 	<Greeting client:load messages={["Hey", "Hallo", "Hola", "Habari"]} />
-	{GlobalSettings}
+	{GlobalSettings.siteTitle}
 </BaseLayout>
