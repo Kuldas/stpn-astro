@@ -65,6 +65,25 @@ export default defineConfig({
             { name: 'body', widget: 'markdown', label: 'Post body' },
             ],
           },
+          {
+            name: 'settings',
+            label: 'Settings',
+            delete: false,
+            editor: [
+              { preview: false },
+            ],
+            files: [
+              {
+                name: 'general',
+                label: 'Site Settings',
+                file: '../../data/globalSettings.json',
+                description: 'General Site settings',
+                fields: [
+                  { label: 'Global title', name: 'site_title', widget: 'string' },
+                ], 
+              },
+            ],
+          },
         ],
       },
     }),
