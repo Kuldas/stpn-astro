@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting.jsx';
-import GlobalSettings from '../data/globalSettings.json';
+import { siteTitle } from '../data/globalSettings.json';
 
 const pageTitle = "Home Page"
 
@@ -10,5 +10,5 @@ const pageTitle = "Home Page"
 <BaseLayout pageTitle={pageTitle}>
 	<h2>My awesome blog subtitle</h2>
 	<Greeting client:load messages={["Hey", "Hallo", "Hola", "Habari"]} />
-	{GlobalSettings.siteTitle+'ss'}
+	{siteTitle}
 </BaseLayout>
